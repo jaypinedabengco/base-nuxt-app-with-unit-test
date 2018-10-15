@@ -3,6 +3,11 @@ const pkg = require('./package')
 module.exports = {
   mode: 'universal',
 
+  env: {
+    newsApiUrl: process.env.NEWS_API_URL || 'https://newsapi.org/v2', 
+    newsApiToken: process.env.NEWS_API_TOKEN 
+  },
+
   /*
   ** Headers of the page
   */
