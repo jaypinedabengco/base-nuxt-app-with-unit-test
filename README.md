@@ -2,6 +2,10 @@
 
 > Base Nuxt Application with Unit Test
 
+<!-- 
+
+BACKUP
+
 ## Build and Run Local JWT API (for testing)
 ``` bash
 # Setup is based on this tutorial
@@ -25,6 +29,27 @@
 # Start API
 #$ npm start
 $ npm run start-local-jwt-auth-api
+```
+
+-->
+
+## Build and Run Local JWT API (for testing)
+``` bash
+# Setup is based on this tutorial
+# https://scotch.io/tutorials/implementing-authentication-in-nuxtjs-app
+
+# check node version, preferred v8.x.x 
+$ node --v
+
+# check npm version, preferred v5.x.x
+$ npm --v
+
+# initialize local jwt auth api
+$ npm run initialize-local-jwt-auth-api
+
+# start api
+$ npm run start-local-jwt-auth-api
+
 ```
 
 ## Build Setup
