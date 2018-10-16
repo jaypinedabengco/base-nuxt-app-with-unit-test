@@ -67,10 +67,9 @@ $ npm run dev
 
 # build for production and launch server
 $ yarn run build 
- or 
-$ npm run build
 $ yarn start 
  or 
+$ npm run build
 $ npm start
 
 # generate static project
