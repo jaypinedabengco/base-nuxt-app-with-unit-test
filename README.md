@@ -8,22 +8,23 @@
 # https://scotch.io/tutorials/implementing-authentication-in-nuxtjs-app
 
 # go to api location
-$ cd ./local-jwt-auth-api
+#$ cd ./local-jwt-auth-api
 
 #install dependencies
-$ npm install
+#$ npm install
 
 # install adonisJS globally 
-$ npm i -g @adonisjs/cli #add 'sudo' if not allowed (sudo npm i -g @adonisjs/cli)
+#$ npm i -g @adonisjs/cli #add 'sudo' if not allowed (sudo npm i -g @adonisjs/cli)
 
 # Generate key
-$ adonis key:generate
+#$ adonis key:generate
 
 # Run Migration
-$ adonis migration:run
+#$ adonis migration:run
 
 # Start API
-$ npm start
+#$ npm start
+$ npm run start-local-jwt-auth-api
 ```
 
 ## Build Setup
