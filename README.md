@@ -10,6 +10,9 @@
 # go to api location
 $ cd ./local-jwt-auth-api
 
+#install dependencies
+$ npm install
+
 # install adonisJS globally 
 $ npm i -g @adonisjs/cli #add 'sudo' if not allowed (sudo npm i -g @adonisjs/cli)
 
