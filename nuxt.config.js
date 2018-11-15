@@ -5,7 +5,9 @@ module.exports = {
 
   env: {
     newsApiUrl: process.env.NEWS_API_URL || 'https://newsapi.org/v2',
-    newsApiToken: process.env.NEWS_API_TOKEN
+    newsApiToken: process.env.NEWS_API_TOKEN,
+    mockJSONBaseLocation: '/mock-json', 
+    testApiBaseUrl: process.env.TEST_API || 'https://reqres.in'
   },
 
   /*
