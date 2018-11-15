@@ -56,17 +56,26 @@ $ npm run start-local-jwt-auth-api
 
 ``` bash
 # install dependencies
-$ yarn install
+$ yarn install 
+ or 
+$ npm install
 
 # serve with hot reload at localhost:3000
-$ yarn run dev
+$ yarn run dev 
+ or 
+$ npm run dev
 
 # build for production and launch server
-$ yarn run build
-$ yarn start
+$ yarn run build 
+$ yarn start 
+ or 
+$ npm run build
+$ npm start
 
 # generate static project
-$ yarn run generate
+$ yarn run generate 
+ or 
+$ npm run generate
 ```
 
 
